@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers/issues"
   },
-  "homepage": "https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers#readme"
+  "homepage": "https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
