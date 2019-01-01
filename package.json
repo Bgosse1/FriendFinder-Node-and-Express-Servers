@@ -1,0 +1,20 @@
+{
+  "name": "FriendFinder-Node-and-Express-Servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers/issues"
+  },
+  "homepage": "https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers#readme"
+}
