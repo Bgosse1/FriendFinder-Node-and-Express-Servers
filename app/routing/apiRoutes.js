@@ -16,8 +16,8 @@ module.exports = function (app) {
         // Compute best friend match
         var matchName = '';
         var matchImage = '';
-        var totalDifference = 10000; // Make the initial value big for comparison
-
+         var totalDifference = 10000; // Make the initial value big for comparison
+        // var totDifference = 0;
         // Examine all existing friends in the list
         for (var i = 0; i < friends.length; i++) {
             // console.log('friend = ' + JSON.stringify(friends[i]));
@@ -28,7 +28,6 @@ module.exports = function (app) {
                 diff += Math.abs(friends[i].scores[j] - userResponses[j]);
             }
             // console.log('diff = ' + diff);
-
             // If lowest difference, record the friend match
             if (diff < totalDifference) {
                 // console.log('Closest match found = ' + diff);
