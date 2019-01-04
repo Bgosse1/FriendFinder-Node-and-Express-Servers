@@ -1,8 +1,7 @@
-// Data structure that will store the friends data
 var friendsArray = [
 	{
 		name: 'Snagglepuss',
-		photo: 'https://en.wikipedia.org/wiki/Snagglepuss#/media/File:Snagglepuss.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/9/9e/Snagglepuss.png',
 		scores: [
 			'1',
 			'5',
@@ -18,7 +17,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Yogi Bear',
-		photo: 'https://en.wikipedia.org/wiki/Yogi_Bear#/media/File:Yogi_Bear_Yogi_Bear.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/f/f0/Yogi_Bear_Yogi_Bear.png',
 		scores: [
 			'2',
 			'4',
@@ -34,7 +33,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Scooby Doo',
-		photo: 'https://www.google.com/imgres?imgurl=https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Scooby-Doo.png/150px-Scooby-Doo.png&imgrefurl=https://en.wikipedia.org/wiki/Scooby-Doo_(character)&h=287&w=150&tbnid=3JbksVmbm5X7KM:&q=Scooby-Doo+(character)&tbnh=186&tbnw=97&usg=AI4_-kR_1dpDrSrfg6TnXAjd5kT99s9DdA&vet=12ahUKEwiI7IKzxM3fAhUJm-AKHV5_D18Q_B0wHnoECAEQBg..i&docid=ocNdwjvrtQFz6M&itg=1&client=firefox-b-1-ab&sa=X&ved=2ahUKEwiI7IKzxM3fAhUJm-AKHV5_D18Q_B0wHnoECAEQBg',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png',
 		scores: [
 			'4',
 			'3',
@@ -50,7 +49,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Muttley',
-		photo: 'https://en.wikipedia.org/wiki/Muttley#/media/File:Muttley-picture.gif',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/2/21/Muttley-picture.gif',
 		scores: [
 			'5',
 			'1',
@@ -66,7 +65,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Boo-Boo',
-		photo: 'https://en.wikipedia.org/wiki/Boo-Boo_Bear#/media/File:Boo-Boo_Bear.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/4/4c/Boo-Boo_Bear.png',
 		scores: [
 			'1',
 			'1',
@@ -82,7 +81,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Pebbles Flinstone',
-		photo: 'https://en.wikipedia.org/wiki/Pebbles_Flintstone#/media/File:Pebbles_Flintstone.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/0/0a/Pebbles_Flintstone.png',
 		scores: [
 			'1',
 			'1',
@@ -98,7 +97,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Atom Ant',
-		photo: 'https://en.wikipedia.org/wiki/Atom_Ant#/media/File:Atom_Ant.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/0/07/Atom_Ant.png',
 		scores: [
 			'5',
 			'4',
@@ -114,7 +113,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Barney Rubble',
-		photo: 'https://en.wikipedia.org/wiki/Barney_Rubble#/media/File:Barney_Rubble.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/e/e2/Barney_Rubble.png',
 		scores: [
 			'5',
 			'2',
@@ -130,7 +129,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Dick Dastardly',
-		photo: 'https://en.wikipedia.org/wiki/Dick_Dastardly#/media/File:Dickdastardly.gif',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/f/f7/Dickdastardly.gif',
 		scores: [
 			'5',
 			'5',
@@ -146,7 +145,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Huckleberry Hound',
-		photo: 'https://en.wikipedia.org/wiki/Huckleberry_Hound#/media/File:Huckleberry_Hound.png',
+		photo: 'https://upload.wikimedia.org/wikipedia/en/1/11/Huckleberry_Hound.png',
 		scores: [
 			'1',
 			'1',
