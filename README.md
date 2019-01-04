@@ -81,3 +81,19 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 7. Once you've found the current user's most compatible friend, display the result as a modal pop-up.
    * The modal should display both the name and picture of the closest match.
 
+## Installation
+
+To install the application follow the instructions below:
+
+	git clone https://github.com/Bgosse1/FriendFinder-Node-and-Express-Servers.git
+	cd FriendFinder-Node-and-Express-Servers
+	npm install
+	
+## Running Locally
+
+To run the application locally and access it in your browser, run
+
+	node server.js
+	
+The application will now be running locally on port 3000. You can then access it locally from your browser at the URL `localhost:3000`.
+
