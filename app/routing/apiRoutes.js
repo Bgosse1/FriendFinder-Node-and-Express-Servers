@@ -8,7 +8,7 @@ module.exports = function (app) {
     app.post('/api/friends', function (req, res) {
         var userInput = req.body;
 
-        var userAnsers = userInput.scores;
+        var userAnswers = userInput.scores;
 
         var name = '';
         var photo = '';
@@ -16,12 +16,14 @@ module.exports = function (app) {
         for (var i = 0; i < friends.length; i++) {
             var diff = 0;
 
-            for (var j = 0; j < userAnsers.length; j++) {
-                diff += Math.abs(friends[i].scores[j] - userAnsers[j]);
+            for (var j = 0; j < userAnswers.length; j++) {
+                diff += Math.abs(friends[i].scores[j] - userAnswers[j]);
             }
-
-            if (diff <= currentDif) {
-                totalDifference = diff;
+            if(i === 0){
+                currentDif = diff; 
+            }
+            else if (diff <= currentDif) {
+                currentDif = diff;
                 name = friends[i].name;
                 photo = friends[i].photo;
             }
